@@ -1,0 +1,89 @@
+{
+  "name": "gulp4-tutorial",
+  "author": "[Code Mafia](https://www.youtube.com/channel/UCQ8iiBr45MDWD7hDp3FDmQg)",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production gulp build",
+    "start": "cross-env NODE_ENV=production gulp serve",
+    "dev": "gulp serve",
+    "icon": "gulp icon"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.7.0",
+    "babel-eslint": "^10.0.3",
+    "browser-sync": "^2.26.7",
+    "cross-env": "^6.0.3",
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {},
+  "gulp-config": {
+    "sizes": [
+      [
+        16,
+        16
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        48,
+        48
+      ],
+      [
+        57,
+        57
+      ],
+      [
+        76,
+        76
+      ],
+      [
+        120,
+        120
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        152,
+        152
+      ],
+      [
+        167,
+        167
+      ],
+      [
+        180,
+        180
+      ],
+      [
+        192,
+        192
+      ],
+      [
+        512,
+        512
+      ]
+    ]
+  }
+}
